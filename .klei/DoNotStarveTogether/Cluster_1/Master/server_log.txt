@@ -1,0 +1,500 @@
+[00:00:00]: PersistRootStorage is now /home/steam/.klei//DoNotStarveTogether/Cluster_1/Master/ 
+[00:00:00]: Starting Up
+[00:00:00]: Version: 510124
+[00:00:00]: Current time: Sat Jun  4 02:21:40 2022
+
+[00:00:00]: System Name: Linux
+[00:00:00]: Host Name: neto-vps.com
+[00:00:00]: Release(Kernel) Version: 4.15.0
+[00:00:00]: Kernel Build Timestamp: #1 SMP Tue Aug 25 11:59:26 MSK 2020
+[00:00:00]: Machine Arch: x86_64
+[00:00:00]: Don't Starve Together: 510124 LINUX
+[00:00:00]: Build Date: 8061
+[00:00:00]: Mode: 32-bit
+[00:00:00]: Parsing command line
+[00:00:00]: Command Line Arguments: -console -cluster Cluster_1 -monitor_parent_process 2287 -shard Master 
+[00:00:00]: [WARNING] -console has been deprecated: Use the [MISC] / console_enabled setting instead.
+[00:00:00]: Initializing distribution platform
+[00:00:00]: ....Done
+[00:00:00]: Mounting file system databundles/klump.zip successful.
+[00:00:00]: Mounting file system databundles/shaders.zip successful.
+[00:00:00]: Mounting file system databundles/fonts.zip successful.
+[00:00:00]: THREAD - started 'GAClient' (4128254784)
+[00:00:00]: CurlRequestManager::ClientThread::Main()
+[00:00:00]: Mounting file system databundles/anim_dynamic.zip successful.
+[00:00:00]: Mounting file system databundles/bigportraits.zip successful.
+[00:00:00]: Mounting file system databundles/images.zip successful.
+[00:00:00]: Mounting file system databundles/scripts.zip successful.
+[00:00:00]: [Steam] SteamGameServer_Init(11000, 27018)
+[00:00:01]: [Steam] SteamGameServer_Init success
+[00:00:01]: ProfileIndex:4.29
+[00:00:01]: [Connect] PendingConnection::Reset(true)
+[00:00:01]: Platform: 1
+[00:00:01]: Network tick rate: U=15(2), D=0
+[00:00:01]: Network tick rate: U=15(2), D=0
+[00:00:01]: OnLoadPermissionList: /home/steam/.klei//DoNotStarveTogether/Cluster_1/blocklist.txt (Failure)
+[00:00:01]: OnLoadPermissionList: /home/steam/.klei//DoNotStarveTogether/Cluster_1/adminlist.txt (Failure)
+[00:00:01]: OnLoadUserIdList: /home/steam/.klei//DoNotStarveTogether/Cluster_1/whitelist.txt (Failure)
+[00:00:01]: Token retrieved from: /home/steam/.klei//DoNotStarveTogether/Cluster_1/cluster_token.txt
+[00:00:01]: Token retrieved from: /home/steam/.klei//DoNotStarveTogether/Cluster_1/cluster_token.txt
+[00:00:01]: cGame::InitializeOnMainThread
+[00:00:01]: THREAD - started 'Ping Job Thread' (4070501184)
+[00:00:01]: Renderer initialize: Okay
+[00:00:01]: AnimManager initialize: Okay
+[00:00:01]: Buffers initialize: Okay
+[00:00:01]: cDontStarveGame::DoGameSpecificInitialize()
+[00:00:01]: GameSpecific initialize: Okay
+[00:00:01]: cGame::StartPlaying
+[00:00:01]: THREAD - started 'StreamInput' (4068399936)
+[00:00:01]: AppVersion::GetArchitecture() x32
+[00:00:01]: LOADING LUA
+[00:00:01]: DoLuaFile scripts/main.lua
+[00:00:01]: DoLuaFile loading buffer scripts/main.lua
+[00:00:02]:   taskgrouplist:	default	Together	
+[00:00:02]:   taskgrouplist:	classic	Classic	
+[00:00:02]:   taskgrouplist:	cave_default	Underground	
+[00:00:02]:   taskgrouplist:	lavaarena_taskset	The Forge	
+[00:00:02]:   taskgrouplist:	quagmire_taskset	The Gorge	
+[00:00:02]: Running main.lua
+	
+[00:00:02]: loaded modindex	
+[00:00:02]: ModIndex: Beginning normal load sequence for dedicated server.
+	
+[00:00:02]: Event data unavailable: lavaarena_event_server/lavaarena_achievement_quest_defs
+[00:00:05]: LOADING LUA SUCCESS
+[00:00:05]: PlayerDeaths could not load morgue	
+[00:00:05]: PlayerHistory could not load player_history	
+[00:00:05]: ServerPreferences could not load server_preferences	
+[00:00:05]: bloom_enabled	true	
+[00:00:05]: OnFilesLoaded()	
+[00:00:05]: OnUpdatePurchaseStateComplete	
+[00:00:05]: Klump load on boot started.	
+[00:00:05]: Klump files loaded: 	0	
+[00:00:07]: 	Load FE	
+[00:00:08]: 	Load FE: done	
+[00:00:08]: THREAD - started 'FilesExistAsyncThread' (4040223552)
+[00:00:08]: Check for write access: TRUE
+[00:00:08]: Check for read access: TRUE
+[00:00:08]: Available disk space for save files: 5737 MB
+[00:00:08]: ModIndex: Load sequence finished successfully.	
+[00:00:08]: Reset() returning
+[00:00:08]: FilesExistAsyncThread started (19600 files)...
+[00:00:09]: ... FilesExistAsyncThread complete
+[00:00:09]: [200] Account Communication Success (6)
+[00:00:09]: Received (KU_SDzpmqvb) from TokenPurpose
+[00:00:09]: Starting Dedicated Server Game	
+[00:00:09]: Network tick rate: U=15(2), D=0
+[00:00:09]: About to start a server with the following settings:
+[00:00:09]:   Dedicated: true
+[00:00:09]:   Online: true
+[00:00:09]:   Passworded: true
+[00:00:09]:   ServerPort: 11000
+[00:00:09]:   SteamAuthPort: 8768
+[00:00:09]:   SteamMasterServerPort: 27018
+[00:00:09]:   ClanID: false
+[00:00:09]:   ClanOnly: false
+[00:00:09]:   ClanAdmin: false
+[00:00:09]:   LanOnly: false
+[00:00:09]:   FriendsOnly: false
+[00:00:09]:   EnableAutosaver: true
+[00:00:09]:   EncodeUserPath: true
+[00:00:09]:   PVP: false
+[00:00:09]:   MaxPlayers: 10
+[00:00:09]:   GameMode: survival
+[00:00:09]:   OverridenDNS: 
+[00:00:09]:   PauseWhenEmpty: false
+[00:00:09]:   IdleTimeout: 1800s
+[00:00:09]:   VoteEnabled: true
+[00:00:09]:   InternetBroadcasting: true
+[00:00:09]:   Intent: cooperative
+[00:00:09]: Online Server Started on port: 11000
+[00:00:09]: Not applying level data overrides.	
+[00:00:09]: Not applying world gen overrides.	
+[00:00:09]: Collecting garbage...
+[00:00:09]: lua_gc took 0.17 seconds
+[00:00:09]: ~ShardLuaProxy()
+[00:00:09]: ~cEventLeaderboardProxy()
+[00:00:09]: ~ItemServerLuaProxy()
+[00:00:09]: ~InventoryLuaProxy()
+[00:00:09]: ~NetworkLuaProxy()
+[00:00:09]: ~SimLuaProxy()
+[00:00:10]: lua_close took 0.31 seconds
+[00:00:10]: ReleaseAll
+[00:00:10]: ReleaseAll Finished
+[00:00:10]: cGame::StartPlaying
+[00:00:10]: AppVersion::GetArchitecture() x32
+[00:00:10]: LOADING LUA
+[00:00:10]: DoLuaFile scripts/main.lua
+[00:00:10]: DoLuaFile loading buffer scripts/main.lua
+[00:00:10]:   taskgrouplist:	default	Together	
+[00:00:10]:   taskgrouplist:	classic	Classic	
+[00:00:10]:   taskgrouplist:	cave_default	Underground	
+[00:00:10]:   taskgrouplist:	lavaarena_taskset	The Forge	
+[00:00:10]:   taskgrouplist:	quagmire_taskset	The Gorge	
+[00:00:10]: Running main.lua
+	
+[00:00:10]: loaded modindex	
+[00:00:10]: ModIndex: Beginning normal load sequence for dedicated server.
+	
+[00:00:11]: Event data unavailable: lavaarena_event_server/lavaarena_achievement_quest_defs
+[00:00:11]: LOADING LUA SUCCESS
+[00:00:11]: PlayerDeaths could not load morgue	
+[00:00:11]: PlayerHistory could not load player_history	
+[00:00:11]: ServerPreferences could not load server_preferences	
+[00:00:11]: bloom_enabled	true	
+[00:00:11]: OnFilesLoaded()	
+[00:00:11]: OnUpdatePurchaseStateComplete	
+[00:00:11]: Loading world: session/E7C17411DCBBD330/0000000003	
+[00:00:11]: Save file is at version 5.1	
+[00:00:11]: Klump load on boot started.	
+[00:00:11]: Klump files loaded: 	0	
+[00:00:11]: 	Unload FE	
+[00:00:11]: 	Unload FE done	
+[00:00:13]: 	LOAD BE	
+[00:00:34]: 	LOAD BE: done	
+[00:00:34]: Begin Session: E7C17411DCBBD330
+[00:00:35]: saving to server_temp/server_save	
+[00:00:35]: MiniMapComponent::AddAtlas( minimap/minimap_data.xml )
+[00:00:35]: Loading 18 new character(s)	
+[00:00:37]: Total 18 character(s) loaded	
+[00:00:39]: Loading Nav Grid	
+[00:00:39]: World generated on build 510124 with save version: 5.1, using seed: 1654309125	
+[00:00:39]: setting 	summerlength	15	
+[00:00:39]: setting 	cavemoonphase	new	
+[00:00:39]: setting 	iscavefullmoon	false	
+[00:00:39]: setting 	isnightmaredawn	false	
+[00:00:39]: setting 	elapseddaysinseason	0	
+[00:00:39]: setting 	isfullmoon	false	
+[00:00:39]: setting 	moisture	19.274791717529	
+[00:00:39]: setting 	cavephase	day	
+[00:00:39]: setting 	iscavewaxingmoon	true	
+[00:00:39]: setting 	isnightmarewild	false	
+[00:00:39]: setting 	nightmaretimeinphase	0	
+[00:00:39]: setting 	precipitationrate	0	
+[00:00:39]: setting 	iswet	false	
+[00:00:39]: setting 	isnewmoon	false	
+[00:00:39]: setting 	precipitation	none	
+[00:00:39]: setting 	israining	false	
+[00:00:39]: setting 	isnightmarewarn	false	
+[00:00:39]: setting 	iswinter	false	
+[00:00:39]: setting 	season	autumn	
+[00:00:39]: setting 	remainingdaysinseason	20	
+[00:00:39]: setting 	winterlength	15	
+[00:00:39]: setting 	iscaveday	true	
+[00:00:39]: setting 	moistureceil	781.08892822266	
+[00:00:39]: setting 	isday	true	
+[00:00:39]: setting 	springlength	20	
+[00:00:39]: setting 	wetness	0	
+[00:00:39]: setting 	iscavedusk	false	
+[00:00:39]: setting 	isalterawake	false	
+[00:00:39]: setting 	isnightmarecalm	false	
+[00:00:39]: setting 	isnight	false	
+[00:00:39]: setting 	isdusk	false	
+[00:00:39]: setting 	isspring	false	
+[00:00:39]: setting 	isautumn	true	
+[00:00:39]: setting 	issnowing	false	
+[00:00:39]: setting 	iswaxingmoon	true	
+[00:00:39]: setting 	phase	day	
+[00:00:39]: setting 	snowlevel	0	
+[00:00:39]: setting 	issnowcovered	false	
+[00:00:39]: setting 	autumnlength	20	
+[00:00:39]: setting 	pop	0.024676821064905	
+[00:00:39]: setting 	nightmaretime	0	
+[00:00:39]: setting 	seasonprogress	0.5	
+[00:00:39]: setting 	moonphase	new	
+[00:00:39]: setting 	nightmarephase	none	
+[00:00:39]: setting 	cycles	0	
+[00:00:39]: setting 	timeinphase	0.32131862640381	
+[00:00:39]: setting 	iscavenight	false	
+[00:00:39]: setting 	iscavenewmoon	false	
+[00:00:39]: setting 	issummer	false	
+[00:00:39]: setting 	temperature	34.206227085371	
+[00:00:39]: setting 	time	0.1606593132019	
+[00:00:54]: Reconstructing topology	
+[00:00:55]: 	...Sorting points	
+[00:00:55]: 	...Sorting edges	
+[00:00:55]: 	...Connecting nodes	
+[00:00:55]: 	...Validating connections	
+[00:00:55]: 	...Housekeeping	
+[00:00:55]: 	...Done!	
+[00:00:56]: 1 uploads added to server. From server_temp
+[00:00:56]: About to start a shard with these settings:
+[00:00:56]:   ShardName: [SHDMASTER]
+[00:00:56]:   ShardID: 1
+[00:00:56]:   ShardRole: MASTER
+[00:00:56]:   MasterHost: (null)
+[00:00:56]:   MasterBind: 127.0.0.1
+[00:00:56]:   MasterPort: 10889
+[00:00:56]: [Shard] Starting master server
+[00:00:56]: [Shard] Shard server started on port: 10889
+[00:00:56]: Telling Client our new session identifier: E7C17411DCBBD330
+[00:00:56]: Check for write access: TRUE
+[00:00:56]: Check for read access: TRUE
+[00:00:56]: Available disk space for save files: 5737 MB
+[00:00:56]: ModIndex: Load sequence finished successfully.	
+[00:00:57]: Reset() returning
+[00:00:59]: Validating portal[10] <-> 1250609012[10] (inactive)	
+[00:00:59]: Validating portal[6] <-> 1250609012[6] (inactive)	
+[00:00:59]: Validating portal[5] <-> 1250609012[5] (inactive)	
+[00:01:00]: Validating portal[4] <-> 1250609012[4] (inactive)	
+[00:01:00]: Validating portal[1] <-> 1250609012[1] (inactive)	
+[00:01:00]: Validating portal[2] <-> 1250609012[2] (inactive)	
+[00:01:00]: Validating portal[9] <-> 1250609012[9] (inactive)	
+[00:01:00]: Validating portal[3] <-> 1250609012[3] (inactive)	
+[00:01:00]: Validating portal[8] <-> 1250609012[8] (inactive)	
+[00:01:00]: Validating portal[7] <-> 1250609012[7] (inactive)	
+[00:01:00]: Server registered via geo DNS in US
+[00:01:05]: [Shard] Secondary shar Caves(1250609012) connected: [LAN] 127.0.0.1
+[00:01:06]: [Shard] Secondary Caves(1250609012) ready!
+[00:01:06]: World 1250609012 is now connected	
+[00:01:06]: Validating portal[10] <-> 1250609012[10] (disabled)	
+[00:01:06]: Validating portal[6] <-> 1250609012[6] (disabled)	
+[00:01:06]: Validating portal[5] <-> 1250609012[5] (disabled)	
+[00:01:06]: Validating portal[4] <-> 1250609012[4] (disabled)	
+[00:01:06]: Validating portal[1] <-> 1250609012[1] (disabled)	
+[00:01:06]: Validating portal[2] <-> 1250609012[2] (disabled)	
+[00:01:06]: Validating portal[9] <-> 1250609012[9] (disabled)	
+[00:01:06]: Validating portal[3] <-> 1250609012[3] (disabled)	
+[00:01:06]: Validating portal[8] <-> 1250609012[8] (disabled)	
+[00:01:06]: Validating portal[7] <-> 1250609012[7] (disabled)	
+[00:01:19]: [P2P] Session request for '76561198142478160'
+[00:01:22]: New incoming connection 170.83.60.20|62680 <5624509025058665384>
+[00:01:25]: Client connected from 170.83.60.20|62680 <5624509025058665384>
+[00:01:25]: ValidateGameSessionToken pgs-usc^KU_SDzpmqvb^DontStarveTogether^eieLcx6OX8jpiMZ7sKXG5EknKvuilDvZnWQ7FCcg83o= for <5624509025058665384>
+[00:01:25]: [P2P] Create session: 230.190.229.187|1 '76561198142478160'
+[00:01:25]: [P2P] Received from 230.190.229.187|1 '76561198142478160'
+[00:01:25]: [P2P] Sent to 230.190.229.187|1 '76561198142478160'
+[00:01:25]: Client authenticated: (KU_SDzpmqvb) FunKÃO do Morro
+[00:01:25]: [Steam] Authenticated host '76561198142478160'
+[00:01:27]: There is no active event to validate against.
+[00:01:27]: [Shard] Read save location file for (KU_SDzpmqvb)
+[00:02:02]: Resuming user: session/E7C17411DCBBD330/A7JGRTPS6JJ5
+[00:02:11]: Spawn request: wathgrithr from FunKÃO do Morro
+[00:02:11]: Skin request: () (body_tweedvest_green_hunters) (hand_willow_magma) (legs_winona_magma) (feet_wendy_ice)
+[00:02:11]: Spawning player at: [Fixed] (-298.00, 0.00, 286.00)	
+[00:02:11]: Serializing user: session/E7C17411DCBBD330/A7JGRTPS6JJ5/0000000004
+[00:02:30]: Server Autopaused	
+[00:02:32]: Server Unpaused	
+[00:02:34]: Server Autopaused	
+[00:02:41]: Server Unpaused	
+[00:03:09]: Server Autopaused	
+[00:03:13]: Server Unpaused	
+[00:03:14]: [Steam] SendUserDisconnect for '76561198142478160'
+[00:03:14]: [Shard] (KU_SDzpmqvb) disconnected from [SHDMASTER](1)
+[00:03:14]: Serializing user: session/E7C17411DCBBD330/A7JGRTPS6JJ5/0000000004
+[00:05:19]: New incoming connection 191.55.217.169|50061 <4700967260475824585>
+[00:05:19]: Client connected from 191.55.217.169|50061 <4700967260475824585>
+[00:05:19]: ValidateGameSessionToken pgs-usc^KU_mWcieYUo^DontStarveTogether^RkrPwO+O/mSM4Ba5y6fOmGsrHCpMYfeFq9a0CPxAHg0= for <4700967260475824585>
+[00:05:19]: Client authenticated: (KU_mWcieYUo) Netiin
+[00:05:19]: [Steam] SendUserConnectAndAuthenticate for '76561198329634620'
+[00:05:19]: [Steam] Authenticated client '76561198329634620'
+[00:05:20]: There is no active event to validate against.
+[00:05:20]: [Shard] Read save location file for (KU_mWcieYUo)
+[00:05:37]: Resuming user: session/E7C17411DCBBD330/A7M216MA49TI
+[00:05:47]: New incoming connection 189.37.66.151|4816 <8328693458607592798>
+[00:05:47]: Client connected from 189.37.66.151|4816 <8328693458607592798>
+[00:05:47]: ValidateGameSessionToken pgs-usc^KU__NAJP-FS^DontStarveTogether^6decySCPeXya0+bE6pJeZ7Leq41C1ZkNe2b4vy+WinI= for <8328693458607592798>
+[00:05:47]: Client authenticated: (KU__NAJP-FS) IR4LFI
+[00:05:47]: [Steam] SendUserConnectAndAuthenticate for '76561198448646455'
+[00:05:48]: [Steam] Authenticated client '76561198448646455'
+[00:05:48]: There is no active event to validate against.
+[00:05:48]: [Shard] Read save location file for (KU__NAJP-FS)
+[00:05:54]: Spawn request: wathgrithr from Netiin
+[00:05:54]: Skin request: () () () () ()
+[00:05:54]: Spawning player at: [Fixed] (-298.00, 0.00, 286.00)	
+[00:05:54]: Serializing user: session/E7C17411DCBBD330/A7M216MA49TI/0000000004
+[00:06:02]: Resuming user: session/E7C17411DCBBD330/A7NTEA9MFOUS
+[00:06:37]: Spawn request: webber from IR4LFI
+[00:06:37]: Skin request: () () () () ()
+[00:06:37]: Spawning player at: [Fixed] (-298.00, 0.00, 286.00)	
+[00:06:37]: Serializing user: session/E7C17411DCBBD330/A7NTEA9MFOUS/0000000004
+[00:06:52]: KU_mWcieYUo	running text command:	rescue	true	
+[00:07:00]: KU_mWcieYUo	running text command:	rescue	true	
+[00:07:59]: Available disk space for save files: 5737 MB
+[00:08:00]: Serializing user: session/E7C17411DCBBD330/A7M216MA49TI/0000000004
+[00:08:00]: Serializing user: session/E7C17411DCBBD330/A7NTEA9MFOUS/0000000004
+[00:08:02]: Serializing world: session/E7C17411DCBBD330/0000000004
+[00:08:02]: Rate limiting RPCs from	116852 - wathgrithr	KU_mWcieYUo	last one being ID	38	
+[00:09:56]: [Steam] SendUserDisconnect for '76561198448646455'
+[00:09:56]: [Shard] (KU__NAJP-FS) disconnected from [SHDMASTER](1)
+[00:09:56]: Serializing user: session/E7C17411DCBBD330/A7NTEA9MFOUS/0000000005
+[00:11:25]: [P2P] Session timed out for '76561198142478160'
+[00:11:25]: [P2P] Remove session: 230.190.229.187|1 '76561198142478160'
+[00:16:02]: Available disk space for save files: 5731 MB
+[00:16:02]: Serializing user: session/E7C17411DCBBD330/A7M216MA49TI/0000000005
+[00:16:03]: Serializing world: session/E7C17411DCBBD330/0000000005
+[00:16:03]: Rate limiting RPCs from	116852 - wathgrithr	KU_mWcieYUo	last one being ID	38	
+[00:18:16]: [Steam] SendUserDisconnect for '76561198329634620'
+[00:18:16]: [Shard] (KU_mWcieYUo) disconnected from [SHDMASTER](1)
+[00:18:16]: Serializing user: session/E7C17411DCBBD330/A7M216MA49TI/0000000006
+[00:24:03]: Available disk space for save files: 5726 MB
+[00:24:04]: Serializing world: session/E7C17411DCBBD330/0000000006
+[00:30:09]: [200] Account Communication Success (6)
+[00:30:09]: Received (KU_SDzpmqvb) from TokenPurpose
+[00:32:04]: Available disk space for save files: 5720 MB
+[00:32:05]: Serializing world: session/E7C17411DCBBD330/0000000007
+[00:40:05]: Available disk space for save files: 5715 MB
+[00:40:07]: Serializing world: session/E7C17411DCBBD330/0000000008
+[00:40:07]: Truncating to snapshot #8...
+[00:40:07]:  - session/E7C17411DCBBD330/0000000002
+[00:40:07]:    1 file(s) removed
+[00:48:07]: Available disk space for save files: 5713 MB
+[00:48:08]: Serializing world: session/E7C17411DCBBD330/0000000009
+[00:48:08]: Truncating to snapshot #9...
+[00:48:08]:  - session/E7C17411DCBBD330/0000000003
+[00:48:08]:    1 file(s) removed
+[00:56:08]: Available disk space for save files: 5713 MB
+[00:56:09]: Serializing world: session/E7C17411DCBBD330/0000000010
+[00:56:09]: Truncating to snapshot #10...
+[00:56:09]:  - session/E7C17411DCBBD330/0000000004
+[00:56:09]:  - session/E7C17411DCBBD330/A7M216MA49TI/0000000004
+[00:56:09]:  - session/E7C17411DCBBD330/A7NTEA9MFOUS/0000000004
+[00:56:09]:    3 file(s) removed
+[01:00:09]: [200] Account Communication Success (6)
+[01:00:09]: Received (KU_SDzpmqvb) from TokenPurpose
+[01:04:09]: Available disk space for save files: 5713 MB
+[01:04:10]: Serializing world: session/E7C17411DCBBD330/0000000011
+[01:04:10]: Truncating to snapshot #11...
+[01:04:10]:  - session/E7C17411DCBBD330/0000000005
+[01:04:10]:  - session/E7C17411DCBBD330/A7M216MA49TI/0000000005
+[01:04:10]:    2 file(s) removed
+[01:12:10]: Available disk space for save files: 5713 MB
+[01:12:11]: Serializing world: session/E7C17411DCBBD330/0000000012
+[01:12:11]: Truncating to snapshot #12...
+[01:12:11]:  - session/E7C17411DCBBD330/0000000006
+[01:12:11]:    1 file(s) removed
+[01:20:11]: Available disk space for save files: 5713 MB
+[01:20:12]: Serializing world: session/E7C17411DCBBD330/0000000013
+[01:20:12]: Truncating to snapshot #13...
+[01:20:12]:  - session/E7C17411DCBBD330/0000000007
+[01:20:12]:    1 file(s) removed
+[01:28:12]: Available disk space for save files: 5713 MB
+[01:28:14]: Serializing world: session/E7C17411DCBBD330/0000000014
+[01:28:14]: Truncating to snapshot #14...
+[01:28:14]:  - session/E7C17411DCBBD330/0000000008
+[01:28:14]:    1 file(s) removed
+[01:30:09]: [200] Account Communication Success (6)
+[01:30:09]: Received (KU_SDzpmqvb) from TokenPurpose
+[01:36:14]: Available disk space for save files: 5713 MB
+[01:36:15]: Serializing world: session/E7C17411DCBBD330/0000000015
+[01:36:15]: Truncating to snapshot #15...
+[01:36:15]:  - session/E7C17411DCBBD330/0000000009
+[01:36:15]:    1 file(s) removed
+[01:44:15]: Available disk space for save files: 5713 MB
+[01:44:16]: Serializing world: session/E7C17411DCBBD330/0000000016
+[01:44:16]: Truncating to snapshot #16...
+[01:44:16]:  - session/E7C17411DCBBD330/0000000010
+[01:44:16]:    1 file(s) removed
+[01:52:16]: Available disk space for save files: 5713 MB
+[01:52:17]: Serializing world: session/E7C17411DCBBD330/0000000017
+[01:52:17]: Truncating to snapshot #17...
+[01:52:17]:  - session/E7C17411DCBBD330/0000000011
+[01:52:17]:    1 file(s) removed
+[02:00:09]: [200] Account Communication Success (6)
+[02:00:09]: Received (KU_SDzpmqvb) from TokenPurpose
+[02:00:17]: Available disk space for save files: 5713 MB
+[02:00:19]: Serializing world: session/E7C17411DCBBD330/0000000018
+[02:00:19]: Truncating to snapshot #18...
+[02:00:19]:  - session/E7C17411DCBBD330/0000000012
+[02:00:19]:    1 file(s) removed
+[02:08:19]: Available disk space for save files: 5713 MB
+[02:08:20]: Serializing world: session/E7C17411DCBBD330/0000000019
+[02:08:20]: Truncating to snapshot #19...
+[02:08:20]:  - session/E7C17411DCBBD330/0000000013
+[02:08:20]:    1 file(s) removed
+[02:16:20]: Available disk space for save files: 5712 MB
+[02:16:21]: Serializing world: session/E7C17411DCBBD330/0000000020
+[02:16:21]: Truncating to snapshot #20...
+[02:16:21]:  - session/E7C17411DCBBD330/0000000014
+[02:16:21]:    1 file(s) removed
+[02:24:21]: Available disk space for save files: 5712 MB
+[02:24:22]: Serializing world: session/E7C17411DCBBD330/0000000021
+[02:24:22]: Truncating to snapshot #21...
+[02:24:22]:  - session/E7C17411DCBBD330/0000000015
+[02:24:22]:    1 file(s) removed
+[02:30:09]: [200] Account Communication Success (6)
+[02:30:09]: Received (KU_SDzpmqvb) from TokenPurpose
+[02:32:22]: Available disk space for save files: 5712 MB
+[02:32:24]: Serializing world: session/E7C17411DCBBD330/0000000022
+[02:32:24]: Truncating to snapshot #22...
+[02:32:24]:  - session/E7C17411DCBBD330/0000000016
+[02:32:24]:    1 file(s) removed
+[02:40:24]: Available disk space for save files: 5712 MB
+[02:40:25]: Serializing world: session/E7C17411DCBBD330/0000000023
+[02:40:25]: Truncating to snapshot #23...
+[02:40:25]:  - session/E7C17411DCBBD330/0000000017
+[02:40:25]:    1 file(s) removed
+[02:48:25]: Available disk space for save files: 5704 MB
+[02:48:27]: Serializing world: session/E7C17411DCBBD330/0000000024
+[02:48:27]: Truncating to snapshot #24...
+[02:48:27]:  - session/E7C17411DCBBD330/0000000018
+[02:48:27]:    1 file(s) removed
+[02:56:27]: Available disk space for save files: 5704 MB
+[02:56:28]: Serializing world: session/E7C17411DCBBD330/0000000025
+[02:56:28]: Truncating to snapshot #25...
+[02:56:28]:  - session/E7C17411DCBBD330/0000000019
+[02:56:28]:    1 file(s) removed
+[03:00:09]: [200] Account Communication Success (6)
+[03:00:09]: Received (KU_SDzpmqvb) from TokenPurpose
+[03:04:28]: Available disk space for save files: 5704 MB
+[03:04:29]: Serializing world: session/E7C17411DCBBD330/0000000026
+[03:04:29]: Truncating to snapshot #26...
+[03:04:29]:  - session/E7C17411DCBBD330/0000000020
+[03:04:29]:    1 file(s) removed
+[03:12:29]: Available disk space for save files: 5704 MB
+[03:12:30]: Serializing world: session/E7C17411DCBBD330/0000000027
+[03:12:30]: Truncating to snapshot #27...
+[03:12:30]:  - session/E7C17411DCBBD330/0000000021
+[03:12:30]:    1 file(s) removed
+[03:20:30]: Available disk space for save files: 5704 MB
+[03:20:32]: Serializing world: session/E7C17411DCBBD330/0000000028
+[03:20:32]: Truncating to snapshot #28...
+[03:20:32]:  - session/E7C17411DCBBD330/0000000022
+[03:20:32]:    1 file(s) removed
+[03:28:32]: Available disk space for save files: 5704 MB
+[03:28:33]: Serializing world: session/E7C17411DCBBD330/0000000029
+[03:28:33]: Truncating to snapshot #29...
+[03:28:33]:  - session/E7C17411DCBBD330/0000000023
+[03:28:33]:    1 file(s) removed
+[03:30:09]: [200] Account Communication Success (6)
+[03:30:09]: Received (KU_SDzpmqvb) from TokenPurpose
+[03:36:33]: Available disk space for save files: 5704 MB
+[03:36:35]: Serializing world: session/E7C17411DCBBD330/0000000030
+[03:36:35]: Truncating to snapshot #30...
+[03:36:35]:  - session/E7C17411DCBBD330/0000000024
+[03:36:35]:    1 file(s) removed
+[03:44:35]: Available disk space for save files: 5704 MB
+[03:44:36]: Serializing world: session/E7C17411DCBBD330/0000000031
+[03:44:36]: Truncating to snapshot #31...
+[03:44:36]:  - session/E7C17411DCBBD330/0000000025
+[03:44:36]:    1 file(s) removed
+[03:52:36]: Available disk space for save files: 5703 MB
+[03:52:37]: Serializing world: session/E7C17411DCBBD330/0000000032
+[03:52:37]: Truncating to snapshot #32...
+[03:52:37]:  - session/E7C17411DCBBD330/0000000026
+[03:52:37]:    1 file(s) removed
+[04:00:09]: [200] Account Communication Success (6)
+[04:00:09]: Received (KU_SDzpmqvb) from TokenPurpose
+[04:00:37]: Available disk space for save files: 5703 MB
+[04:00:39]: Serializing world: session/E7C17411DCBBD330/0000000033
+[04:00:39]: Truncating to snapshot #33...
+[04:00:39]:  - session/E7C17411DCBBD330/0000000027
+[04:00:39]:    1 file(s) removed
+[04:08:39]: Available disk space for save files: 5703 MB
+[04:08:40]: Serializing world: session/E7C17411DCBBD330/0000000034
+[04:08:40]: Truncating to snapshot #34...
+[04:08:40]:  - session/E7C17411DCBBD330/0000000028
+[04:08:40]:    1 file(s) removed
+[04:16:40]: Available disk space for save files: 5703 MB
+[04:16:41]: Serializing world: session/E7C17411DCBBD330/0000000035
+[04:16:41]: Truncating to snapshot #35...
+[04:16:41]:  - session/E7C17411DCBBD330/0000000029
+[04:16:41]:    1 file(s) removed
+[04:24:41]: Available disk space for save files: 5703 MB
+[04:24:42]: Serializing world: session/E7C17411DCBBD330/0000000036
+[04:24:42]: Truncating to snapshot #36...
+[04:24:42]:  - session/E7C17411DCBBD330/0000000030
+[04:24:42]:    1 file(s) removed
+[04:30:09]: [200] Account Communication Success (6)
+[04:30:09]: Received (KU_SDzpmqvb) from TokenPurpose
+[04:35:48]: Available disk space for save files: 5703 MB

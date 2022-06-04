@@ -1,0 +1,11 @@
+.bash_history
+.bash_logout
+.bashrc
+.bashrc.old
+.cache/*
+.config/*
+.profile
+.steam/*
+.sudo_as_admin_successful
+.viminfo
+steamapps/*
